@@ -11,10 +11,10 @@ public class Test1 {
         FileInputStream fis = null;
         FileOutputStream fos = null;
         try{
-            File file = new File("res\\IO\\input.txt");
+            File file = new File("res/IO/byteStream/test1input.txt");
             if(file.exists()){
-                fis = new FileInputStream("res\\IO\\input.txt");
-                fos = new FileOutputStream("res\\IO\\output.txt",true);
+                fis = new FileInputStream("res/IO/byteStream/test1input.txt");
+                fos = new FileOutputStream("res/IO/byteStream/test1output.txt",true);
                 int c;
                 byte[] b = new byte[2048];
                 int i = 0;

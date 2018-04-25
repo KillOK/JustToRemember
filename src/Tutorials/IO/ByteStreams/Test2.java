@@ -1,4 +1,4 @@
-package Tutorials.IO.ByteArray;
+package Tutorials.IO.ByteStreams;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -29,7 +29,7 @@ public class Test2 {
             if(fileInputStream!=null)fileInputStream.close();
             if(fileOutputStream!=null)fileOutputStream.close();
             if(file!=null){
-                if(file.delete()) System.out.println("File successlully deleted");  // Just not to mess  memory. Important to call this method after closing of streams, which work with it...
+                if(file.delete()) System.out.println("File successlully deleted");  // Just not to mess  memory. Important to call this method after closing of streams, which work with current file...
             }
 
         }

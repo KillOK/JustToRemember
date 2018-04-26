@@ -23,13 +23,13 @@ public class CharStreamTest1 {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if(fis!=null) try {
-                fis.close();
+            if(isr!=null) try {
+                isr.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            if(isr!=null) try {
-                isr.close();
+            if(fis!=null) try {
+                fis.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }

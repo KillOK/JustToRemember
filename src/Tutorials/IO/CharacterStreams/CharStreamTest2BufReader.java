@@ -18,7 +18,7 @@ public class CharStreamTest2BufReader {
                 s = s + l+"\n";
             }
             printWriter.print("\nTa-da-da-damn it/\n");
-            printWriter.print(s);
+            printWriter.print   (s);
             System.out.println(s);
         } catch (FileNotFoundException e) {
             e.printStackTrace();

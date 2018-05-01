@@ -16,7 +16,7 @@ public class Test1BufferedIOStreams {
             while ((i=in.read())!=-1){
                 out.write(i);
             }
-//            out.flush();
+            out.flush();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

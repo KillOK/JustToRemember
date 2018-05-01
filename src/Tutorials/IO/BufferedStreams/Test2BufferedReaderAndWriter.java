@@ -12,11 +12,11 @@ public class Test2BufferedReaderAndWriter {
         try {
             br = new BufferedReader(new FileReader("res/IO/byteStream/input.txt"));
             bufferedWriter = new BufferedWriter(new FileWriter("res/IO/byteStream/output.txt"));
-            String s;
-            String result = null;
+            String s = new String();
+            String result = new String();
             while((s=br.readLine())!=null){
                 System.out.println(s);
-                result = result+s+"\n";
+                result += s+"\n";
             }
             bufferedWriter.write(result);
         } catch (FileNotFoundException e) {

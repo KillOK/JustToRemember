@@ -1,3 +1,3 @@
 Hi
-This is IO tutorial)
-А то есм Кирилица)
+This, is, IO tutorial)
+А то есм Кирилица), Йопта
